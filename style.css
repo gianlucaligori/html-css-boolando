@@ -13,9 +13,6 @@ header {
     z-index: 1;
 }
 
-body {
-    background-color: lightgray;
-}
 
 nav {
     height: 100%;
@@ -56,7 +53,7 @@ nav a {
 
 .card {
     position: relative;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     height: 400px;
 }
 
@@ -78,7 +75,6 @@ nav a {
     position: absolute;
     color: white;
     background-color: red;
-
 }
 
 .sales, .eco {
@@ -94,6 +90,17 @@ nav a {
     color: white;
     background-color: green;
 }
+
+.eco6 {
+    position: absolute;
+    left: 0;
+    bottom: 6rem;
+    padding: .2rem;
+    color: white;
+    background-color: green;
+    font-size: 0.8rem;
+}
+
 
 .heart {
     position: absolute;
@@ -127,6 +134,7 @@ nav a {
 
 
 footer {
+    margin-top: 2rem;
     display: flex;
     justify-content: space-around ;
     height: 7rem;
