@@ -24,12 +24,13 @@ nav {
 .logo {
     height: 55%;
     width: 10rem;
+    margin-right: 6rem;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    padding-right: 1rem;
+    padding: 0.5rem;
 }
 
 
