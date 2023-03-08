@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: rgba(255,105,0,255);
+    height: 4rem;
+    max-width: 1500px;
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    height: 55%;
+    width: 10rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 1rem;
+}
+
+body {
+    background-color: grey;
+    height: 10000px;
+}
+
+
