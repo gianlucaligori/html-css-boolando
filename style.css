@@ -7,13 +7,12 @@
 nav {
     background-color: rgba(255,105,0,255);
     height: 4rem;
-    max-width: 1500px;
-    height: 4rem;
     width: 100%;
-    position: fixed;
+    position: fixed top;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 4rem;
 }
 
 .logo {
@@ -28,8 +27,18 @@ nav a {
 }
 
 body {
-    background-color: grey;
-    height: 10000px;
+    background-color: lightgrey;
+               /*solo prova*/
 }
 
+.cards {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.model {
+    height: 400px;
+ 
+}
 
